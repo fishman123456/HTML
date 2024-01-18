@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="main-header"> HTML Tables </h1>
+    <table  class ="my-table">
+        <thead class = "table-header">
+        <tr>
+            <th>Язык </th>
+            <th>Типизация </th>
+            <th>Исполнение </th>
+            <th colspan="2">Расширение файлов </th>
+        </tr>
+    </thead>
+    <tbody class = "table-body">
+        <tr>
+            <td>Pyton </td>
+            <td rowspan="2">Динамическая </td>
+            <td rowspan="2">Интерпретируемый </td>
+            <td colspan="2">.py </td>
+        </tr>
+        <tr>
+            <td>JavaScript </td>
+            <td>.js </td>
+            <td>.jsx </td>
+            
+        </tr>
+        <tr>
+            <td>C# </td>
+            <td rowspan="3">Статическая </td>
+            <td rowspan="3">Компилируемый </td>
+            <td colspan="2">.cs</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>.cpp</td>
+            <td>.h</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td colspan="2">.sql</td>
+        </tr>
+    </tbody>
+    <tfoot class = "table-footer">
+        <tr>
+            <td>
+                Таблица 1
+            </td>
+        </tr>
+    </tfoot>
+    </table>
+
+</body>
+</html>

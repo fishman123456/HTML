@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    margin: 5%;
+}
+
+h1{
+    color:black;
+    width: 10;
+    height: 50;
+    padding-left: 2%;
+}
+
+
+ol{
+    background-color: rgb(211, 209, 209);
+    list-style-position: inside;
+    padding: 5%;
+    margin: 10%;
+    list-style-image: url(./icons/unchecked_16.png);
+}
+.lenght-blue{
+    background-color:lightblue;
+    padding: 2%;
+    list-style-image: url(./icons/unchecked_16.png);
+}
+.dark-blue{
+    background-color:rgb(115, 174, 192);
+    padding: 2%;
+    list-style-image: url(./icons/unchecked_16.png);
+}
+.lenght-grey{
+    background-color:grey;
+    padding: 2%;
+    list-style-image: url(./icons/checked_16.png);
+}
+ul {
+    list-style-image: url(./icons/unchecked_16.png); /* Путь к изображению маркера */
+   }
+   .red-text-cross{
+    background-color:red;
+}
